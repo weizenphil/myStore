@@ -1,8 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { MessageService } from 'primeng/api';
-import { Product } from 'src/app/model/product';
-import { CartService } from 'src/app/service/cart.service';
-import { ProductService } from 'src/app/service/product.service';
+//import { MessageService } from 'primeng/api';
+import { Product } from '../../model/product';
+import { CartService } from '../../service/cart.service';
+import { ProductService } from '../../service/product.service';
 
 @Component({
   selector: 'app-product',

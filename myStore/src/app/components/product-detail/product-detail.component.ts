@@ -2,10 +2,10 @@ import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
 import { Subject } from 'rxjs';
-import { Product } from 'src/app/model/product';
-import { ProductService } from 'src/app/service/product.service';
 import { takeUntil } from 'rxjs';
-import { CartService } from 'src/app/service/cart.service';
+import { Product } from '../../model/product';
+import { CartService } from '../../service/cart.service';
+import { ProductService } from '../../service/product.service';
 
 @Component({
   selector: 'app-product-detail',
